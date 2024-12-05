@@ -1,0 +1,40 @@
+body{
+    background-color: darkred;
+    align-items: center;
+}
+.titulo{
+    font-size: larger;
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+label,input{
+    display: block ;
+    width: 94%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-color: #ff1100;
+}
+form{
+    width: 350px;
+    margin: auto;
+    background: rgb(186, 30, 30);
+    padding: 40px;
+    border-radius: 10px;
+}
+#enviar{
+    width: 100%;
+    border: 2px solid #ff1100;
+    background-color: #0c0b0b;
+    color: #ff1100;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+  }
+  #enviar:hover{
+   background-color: #ff1100;
+   color: #1f1c1c;
+ transition:all linear 0.3;
+  }

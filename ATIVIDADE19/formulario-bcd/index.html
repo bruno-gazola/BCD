@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="loja.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Loja Bruno</title>
+</head>
+<body>
+    
+    <form action="enviado.html" method="post">
+
+        <h2>Registre um funcionário na Loja Bruno</h2>
+
+        <label class="titulo" for="nome"> Nome:</label>
+        <input type="text" name="nome" id="nome" required autofocus
+        placeholder="Ex.:Bruno">
+        <br><br>
+
+        <label class="titulo" for="email"> E-mail:</label>
+        <input type="text" name="email" id="email" required autofocus
+        placeholder="Ex.:email@gmail.com">
+        <br><br>
+
+        <label class="titulo" for="cpf"> CPF:</label>
+        <input type="text" name="cpf" id="cpf" maxlength="11" required autofocus>
+        <br><br>
+
+        <label class="titulo" for="rua"> Rua:</label>
+        <input type="text" name="rua" id="rua" required autofocus>
+        <br><br>
+
+        <label class="titulo" for="bairro"> Bairro:</label>
+        <input type="text" name="bairro" id="bairro" required autofocus>
+        <br><br>
+
+        <label class="titulo" for="numerocasa"> Número:</label>
+        <input type="number" maxlength="5" name="numerocasa" id="numerocasa" required autofocus>
+        <br><br>
+
+        <label class="titulo" for="estado"> Estado:</label>
+        <input type="text" maxlength="2" name="estado" id="estado" required autofocus
+        placeholder="Ex.:SP">
+        <br><br>
+
+        <label class="titulo" for="cidade"> Cidade:</label>
+        <input type="text" name="cidade" id="cidade" required autofocus>
+        <br><br>
+
+        <input type="submit" name="enviar" value="Enviar" id="enviar">
+
+        <p>
+            <input type="submit" value="Enviar (Simulação)" id="enviar">
+        </p>
+
+    </form>
+
+</body>
+</html>
